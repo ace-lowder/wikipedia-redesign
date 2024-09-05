@@ -1,23 +1,29 @@
-import { BsDash } from "react-icons/bs";
+"use client";
+
+import { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import CollapseHeader from "./CollapseHeader";
 
 const Contents = () => {
+  const [isOpen, setIsOpen] = useState(true);
+  const toggle = () => setIsOpen((prev) => !prev);
+
   return (
-    <div className="section flex-col">
-      <div className="flex border-b items-center gap-2 font-semibold">
-        <button className="icon-button-sm">
-          <BsDash className="text-gray-500" size={22} />
-        </button>
+    <div className="w-full flex flex-col gap-4">
+      <CollapseHeader isOpen={isOpen} onClick={toggle}>
         Contents
-      </div>
-      <ul className="text-gray-700 space-y-1">
-        <li className="flex items-center justify-between">
-          Senses <IoIosArrowForward className="mt-1" size={12} />
-        </li>
-        <li className="flex items-center justify-between">
-          Behavior <IoIosArrowForward className="mt-1" size={12} />
-        </li>
-      </ul>
+      </CollapseHeader>
+
+      {isOpen && (
+        <ul className="text-gray-700 space-y-1">
+          <li className="flex items-center justify-between">
+            Senses <IoIosArrowForward className="mt-1" size={12} />
+          </li>
+          <li className="flex items-center justify-between">
+            Behavior <IoIosArrowForward className="mt-1" size={12} />
+          </li>
+        </ul>
+      )}
     </div>
   );
 };

@@ -30,12 +30,6 @@ h3 {
   @apply gap-8;
 }
 
-.section {
-  @apply flex;
-  @apply w-full;
-  @apply gap-4;
-}
-
 .icon-button {
   @apply flex;
   @apply items-center;
