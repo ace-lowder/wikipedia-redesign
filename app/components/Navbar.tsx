@@ -6,7 +6,7 @@ import { MdOutlinePalette } from "react-icons/md";
 const Navbar = () => {
   return (
     <nav className="container">
-      <div className="px-6 mb-8 section justify-between md:px-3.5 py-4 md:mb-0 items-center">
+      <div className="section px-6 mb-8 justify-between md:px-3.5 py-4 md:mb-0 items-center">
         <div id="menu" className="flex gap-4 items-center">
           <button className="icon-button">
             <HiOutlineMenu size={20} />

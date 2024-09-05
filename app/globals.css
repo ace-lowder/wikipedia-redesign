@@ -45,3 +45,13 @@ h3 {
   @apply h-9;
   @apply hover:bg-gray-100;
 }
+
+.icon-button-sm {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply rounded-md;
+  @apply w-7;
+  @apply h-7;
+  @apply hover:bg-gray-100;
+}
