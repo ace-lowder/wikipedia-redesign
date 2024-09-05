@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply font-sans;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-serif;
+}
+
 .page {
   @apply w-full;
   @apply h-full;
@@ -27,4 +37,14 @@
   @apply md:flex-row;
   @apply w-full;
   @apply gap-4;
+}
+
+.icon-button {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply rounded-md;
+  @apply w-9;
+  @apply h-9;
+  @apply hover:bg-gray-100;
 }
