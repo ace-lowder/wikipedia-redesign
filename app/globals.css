@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.page {
+  @apply w-full;
+  @apply h-full;
+  @apply flex;
+  @apply flex-col;
+  @apply py-8;
+  @apply gap-8;
+  @apply px-8;
+  @apply lg:px-0;
+}
+
+.container {
+  @apply max-w-[1600px];
+  @apply mx-auto;
+  @apply flex;
+  @apply flex-col;
+  @apply gap-8;
+}
+
+.section {
+  @apply flex;
+  @apply flex-col;
+  @apply md:flex-row;
+  @apply w-full;
+  @apply gap-4;
+}

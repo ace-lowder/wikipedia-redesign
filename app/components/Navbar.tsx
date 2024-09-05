@@ -2,9 +2,13 @@ import { HiOutlineMenu } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <nav className="w-full p-4 flex items-center gap-4">
-      <HiOutlineMenu />
-      Navbar
+    <nav className="bg-blue-200">
+      <div className="container">
+        <div className="section items-center">
+          <HiOutlineMenu />
+          Navbar
+        </div>
+      </div>
     </nav>
   );
 };
