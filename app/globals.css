@@ -32,8 +32,6 @@ h3 {
 
 .section {
   @apply flex;
-  @apply flex-col;
-  @apply md:flex-row;
   @apply w-full;
   @apply gap-4;
 }
