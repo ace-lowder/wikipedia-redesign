@@ -17,10 +17,9 @@ h3 {
   @apply h-full;
   @apply flex;
   @apply flex-col;
-  @apply py-8;
   @apply gap-8;
-  @apply px-8;
-  @apply lg:px-0;
+  @apply py-8;
+  @apply px-6;
 }
 
 .container {
