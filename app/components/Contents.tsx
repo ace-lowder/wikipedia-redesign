@@ -17,10 +17,16 @@ const Contents = () => {
       {isOpen && (
         <ul className="text-gray-700 space-y-1">
           <li className="flex items-center justify-between">
-            Senses <IoIosArrowForward className="mt-1" size={12} />
+            Senses
+            <button className="icon-button-sm -mr-2">
+              <IoIosArrowForward className="mt-1" size={12} />
+            </button>
           </li>
           <li className="flex items-center justify-between">
-            Behavior <IoIosArrowForward className="mt-1" size={12} />
+            Behavior
+            <button className="icon-button-sm -mr-2">
+              <IoIosArrowForward className="mt-1" size={12} />
+            </button>
           </li>
         </ul>
       )}

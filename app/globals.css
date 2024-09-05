@@ -37,6 +37,7 @@ h3 {
   @apply rounded-md;
   @apply w-9;
   @apply h-9;
+  @apply min-w-9;
   @apply hover:bg-gray-100;
 }
 
@@ -47,5 +48,6 @@ h3 {
   @apply rounded-md;
   @apply w-7;
   @apply h-7;
+  @apply min-w-7;
   @apply hover:bg-gray-100;
 }

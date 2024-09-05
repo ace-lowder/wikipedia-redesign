@@ -9,9 +9,10 @@ interface CollapseHeaderProps {
 const CollapseHeader = ({ children, isOpen, onClick }: CollapseHeaderProps) => {
   return (
     <div
-      className={`flex border-b items-center gap-2 font-semibold ${
+      className={`flex border-b items-center gap-2 font-semibold cursor-pointer ${
         isOpen ? "border-b-gray-300" : "border-b-white"
       }`}
+      onClick={onClick}
     >
       <button className="icon-button-sm" onClick={onClick}>
         {isOpen ? (
