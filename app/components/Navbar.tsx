@@ -18,7 +18,7 @@ const Navbar = () => {
           placeholder="Search Wikipedia"
         ></input>
         <div id="options" className="flex gap-2 items-center">
-          <button className="bg-yellow-400 hover:bg-yellow-300 text-gray-700 h-9 px-3 text-sm font-semibold rounded-md text-nowrap">
+          <button className="bg-yellow-400 hover:bg-yellow-300 text-gray-700 h-[34px] px-3 text-sm font-semibold rounded-md text-nowrap">
             Go PRO
           </button>
           <button className="icon-button">
