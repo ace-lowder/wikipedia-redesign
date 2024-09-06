@@ -12,6 +12,12 @@ h1 {
   @apply font-serif;
 }
 
+a {
+  @apply text-blue-400;
+  @apply hover:underline;
+  @apply hover:cursor-pointer;
+}
+
 .page {
   @apply w-full;
   @apply h-full;

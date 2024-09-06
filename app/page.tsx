@@ -1,14 +1,16 @@
+import Article from "./components/Article";
 import ArticleLevels from "./components/ArticleLevels";
 import Contents from "./components/Contents";
 import Options from "./components/Options";
 import Title from "./components/Title";
 import Tools from "./components/Tools";
+import { overview } from "./data/articleData";
 
 export default function Home() {
   return (
     <div className="page">
       <div className="container">
-        <div className="w-full flex flex-col flex-col-reverse md:flex-row gap-12">
+        <div className="w-full flex flex-col flex-col-reverse md:flex-row gap-6 md:gap-12">
           <div
             id="left-sidebar"
             className="grow min-w-full md:min-w-0 md:w-1/5 max-w-64 flex flex-col gap-6 md:mt-7"
@@ -19,6 +21,8 @@ export default function Home() {
           <main className="grow min-w-full md:min-w-0 md:w-1/2">
             <Title>Cat</Title>
             <Options />
+            <div className="w-full flex flex-col py-3 gap-3"></div>
+            <Article articleData={overview} />
           </main>
           <div
             id="right-sidebar"
