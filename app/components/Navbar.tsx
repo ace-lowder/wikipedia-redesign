@@ -12,13 +12,19 @@ const Navbar = () => {
           <button className="icon-button">
             <HiOutlineMenu size={20} />
           </button>
-          <Image src="/logo.png" width={198} height={48} alt="logo" />
+          <Image
+            src="/logo.png"
+            width={198}
+            height={48}
+            className="cursor-pointer"
+            alt="logo"
+          />
         </div>
         <div className="absolute top-20 left-[20%] w-1/2 flex justify-between text-gray-400 items-center md:static md:grow mx-8 max-w-[800px] bg-gray-100 px-4 rounded-lg h-9 cursor-pointer hover:bg-gray-200">
           Search Wikipedia <IoSearchSharp />
         </div>
         <div id="options" className="flex gap-2 items-center">
-          <button className="bg-yellow-400 hover:bg-yellow-300 text-gray-700 h-[34px] px-3 text-sm font-semibold rounded-md text-nowrap">
+          <button className="bg-yellow-400 text-gray-700 h-[34px] px-3 text-sm font-semibold rounded-md text-nowrap">
             Go PRO
           </button>
           <button className="icon-button">

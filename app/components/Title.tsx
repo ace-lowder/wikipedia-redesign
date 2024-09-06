@@ -12,10 +12,10 @@ const Title = ({ children }: TitleProps) => {
         <h1>{children}</h1>
       </div>
       <div className="flex items-center relative top-[1px]">
-        <button className="bg-white border-l border-t border-r rounded-t-lg text-xl p-2">
+        <button className="bg-white border-l border-t border-r rounded-t-lg text-xl px-4 py-2">
           Article
         </button>
-        <button className="text-xl p-2">Talk</button>
+        <button className="text-xl px-4 py-2">Talk</button>
       </div>
     </div>
   );
