@@ -6,9 +6,8 @@ body {
   @apply font-sans;
 }
 
-h1,
-h2,
-h3 {
+h1 {
+  @apply text-4xl;
   @apply font-serif;
 }
 
