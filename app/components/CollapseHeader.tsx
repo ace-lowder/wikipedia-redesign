@@ -14,7 +14,7 @@ const CollapseHeader = ({ children, isOpen, onClick }: CollapseHeaderProps) => {
       }`}
       onClick={onClick}
     >
-      <button className="icon-button-sm" onClick={onClick}>
+      <button className="icon-button-sm">
         {isOpen ? (
           <BsDash className="text-gray-500 stroke-[0.6]" size={22} />
         ) : (
