@@ -30,9 +30,9 @@ const Tools = () => {
   ];
 
   const proTag = (
-    <button className="px-1 py-0.5 bg-yellow-400 text-[0.7rem] text-white font-bold rounded-[4px] leading-3 ml-auto">
+    <div className="px-1 py-0.5 bg-yellow-400 text-[0.7rem] text-white font-bold rounded-[4px] leading-3 ml-auto">
       PRO
-    </button>
+    </div>
   );
 
   return (
