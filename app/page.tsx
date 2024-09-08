@@ -4,6 +4,7 @@ import Options from "./components/article/Options";
 import Title from "./components/article/Title";
 import Tools from "./components/sidebar/Tools";
 import Overview from "./components/article/Overview";
+import Senses from "./components/article/Senses";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
           <main className="grow min-w-full md:min-w-0 md:w-1/2">
             <Title>Cat</Title>
             <Options />
-            <Overview />
+            <div className="flex flex-col gap-6 md:gap-12">
+              <Overview />
+              <Senses />
+            </div>
           </main>
           <div
             id="right-sidebar"
