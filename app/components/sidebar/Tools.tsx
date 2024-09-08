@@ -10,7 +10,7 @@ import { IoLink } from "react-icons/io5";
 import { HiMiniLink } from "react-icons/hi2";
 import { BiSolidQuoteAltRight } from "react-icons/bi";
 import { useState } from "react";
-import CollapseHeader from "./CollapseHeader";
+import CollapseHeader from "../CollapseHeader";
 
 const Tools = () => {
   const [isOpen, setIsOpen] = useState(true);

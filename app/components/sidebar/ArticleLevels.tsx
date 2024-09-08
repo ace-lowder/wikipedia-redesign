@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
-import CollapseHeader from "./CollapseHeader";
+import CollapseHeader from "../CollapseHeader";
 
 const ArticleLevels = () => {
   const [isOpen, setIsOpen] = useState(true);

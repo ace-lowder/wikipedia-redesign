@@ -1,4 +1,5 @@
 import OverviewPanel from "./OverviewPanel";
+import { MdEdit } from "react-icons/md";
 
 const Overview = () => {
   return (
@@ -47,7 +48,12 @@ const Overview = () => {
           an estimated 220 million owned and 480 million stray cats in the
           world.
         </p>
-        <h2>Etymology and Naming</h2>
+        <div className="flex items-center gap-0.5 border-b">
+          <h2>Etymology and Naming</h2>
+          <button className="icon-button-sm mb-0.5 text-gray-500">
+            <MdEdit size={12} />
+          </button>
+        </div>
         <p>
           The origin of the English word cat, <a>Old English</a> <i>catt</i>, is
           thought to be the <a>Late Latin</a> word cattus, which was first used

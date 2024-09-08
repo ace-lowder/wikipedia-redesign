@@ -1,9 +1,9 @@
-import ArticleLevels from "./components/ArticleLevels";
-import Contents from "./components/Contents";
-import Options from "./components/Options";
-import Title from "./components/Title";
-import Tools from "./components/Tools";
-import Overview from "./components/Overview";
+import ArticleLevels from "./components/sidebar/ArticleLevels";
+import Contents from "./components/sidebar/Contents";
+import Options from "./components/article/Options";
+import Title from "./components/article/Title";
+import Tools from "./components/sidebar/Tools";
+import Overview from "./components/article/Overview";
 
 export default function Home() {
   return (
