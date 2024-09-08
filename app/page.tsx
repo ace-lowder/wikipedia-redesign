@@ -1,10 +1,9 @@
-import Article from "./components/Article";
 import ArticleLevels from "./components/ArticleLevels";
 import Contents from "./components/Contents";
 import Options from "./components/Options";
 import Title from "./components/Title";
 import Tools from "./components/Tools";
-import { overview } from "./data/articleData";
+import Overview from "./components/Overview";
 
 export default function Home() {
   return (
@@ -21,8 +20,7 @@ export default function Home() {
           <main className="grow min-w-full md:min-w-0 md:w-1/2">
             <Title>Cat</Title>
             <Options />
-            <div className="w-full flex flex-col py-3 gap-3"></div>
-            <Article articleData={overview} />
+            <Overview />
           </main>
           <div
             id="right-sidebar"

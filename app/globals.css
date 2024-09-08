@@ -12,8 +12,20 @@ h1 {
   @apply font-serif;
 }
 
-a {
-  @apply text-blue-400;
+h2 {
+  @apply text-2xl;
+  @apply font-serif;
+  @apply border-b;
+}
+
+h3 {
+  @apply font-bold;
+  @apply text-lg;
+}
+
+a,
+sup {
+  @apply text-blue-500;
   @apply hover:underline;
   @apply hover:cursor-pointer;
 }
