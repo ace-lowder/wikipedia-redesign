@@ -8,22 +8,19 @@ import overview6 from "@/public/images/overview-6.png";
 
 const OverviewPanel = () => {
   return (
-    <div className="bg-white outline outline-[16px] outline-white w-full md:w-[260px] md:float-right mb-4 md:mb-2 md:ml-4 lg:mb-4 p-1.5 border flex flex-col">
-      <h3 className="mx-auto">Cat</h3>
-      <span className="text-sm mb-3 text-center">
-        Temporal Range: 9,500 years ago - present
-      </span>
+    <div className="bg-white outline outline-[14px] outline-white w-full md:w-[260px] md:float-right mb-4 md:mb-2 md:ml-4 lg:mb-2 p-1.5 border flex flex-col">
+      <h3 className="mx-auto mb-2">Cat</h3>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <Image
             src={overview1}
             alt="Image A"
-            className="grow w-[55%] object-cover"
+            className="grow w-[55%] object-cover hover:cursor-pointer"
           />
           <Image
             src={overview2}
             alt="Image B"
-            className="grow w-[20%] object-cover"
+            className="grow w-[20%] object-cover hover:cursor-pointer"
           />
         </div>
 
@@ -31,12 +28,12 @@ const OverviewPanel = () => {
           <Image
             src={overview3}
             alt="Image C"
-            className="grow w-[40%] object-cover"
+            className="grow w-[40%] object-cover hover:cursor-pointer"
           />
           <Image
             src={overview4}
             alt="Image D"
-            className="grow w-[45%] object-cover"
+            className="grow w-[45%] object-cover hover:cursor-pointer"
           />
         </div>
 
@@ -44,17 +41,21 @@ const OverviewPanel = () => {
           <Image
             src={overview5}
             alt="Image E"
-            className="grow w-[40%] object-cover"
+            className="grow w-[40%] object-cover hover:cursor-pointer"
           />
           <Image
             src={overview6}
             alt="Image F"
-            className="grow w-[20%] object-cover"
+            className="grow w-[20%] object-cover hover:cursor-pointer"
           />
         </div>
       </div>
 
       <span className="text-sm mx-auto">Various types of cat</span>
+      <div className="bg-slate-50 text-blue-500 py-0.5 rounded-md text-center mt-3 mb-1">
+        Temporal Range
+      </div>
+      <p>9,500 years ago - present</p>
       <div className="bg-slate-50 text-blue-500 py-0.5 rounded-md text-center mt-3 mb-1">
         Conservation Status
       </div>

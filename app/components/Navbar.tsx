@@ -14,8 +14,8 @@ const Navbar = () => {
           </button>
           <Image
             src="/logo.png"
-            width={198}
-            height={48}
+            width={165}
+            height={40}
             className="cursor-pointer"
             alt="logo"
           />

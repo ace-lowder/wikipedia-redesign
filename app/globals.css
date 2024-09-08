@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 14px;
+}
+
 body {
   @apply font-sans;
   @apply select-none;
@@ -41,7 +45,7 @@ sup {
 }
 
 .container {
-  @apply max-w-[1600px];
+  @apply max-w-[1400px];
   @apply mx-auto;
   @apply flex;
   @apply flex-col;
