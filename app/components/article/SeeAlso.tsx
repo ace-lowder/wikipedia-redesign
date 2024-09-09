@@ -1,4 +1,4 @@
-import ArticleHeading from "../ArticleHeading";
+import ArticleHeading from "./ArticleHeading";
 import { TbNotes } from "react-icons/tb";
 import { VscListSelection } from "react-icons/vsc";
 

@@ -1,4 +1,4 @@
-import ArticleSubheading from "../ArticleSubheading";
+import ArticleSubheading from "./ArticleSubheading";
 import HearingPanel from "./HearingPanel";
 
 const Hearing = () => {

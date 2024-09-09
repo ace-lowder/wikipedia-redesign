@@ -1,4 +1,4 @@
-import ArticleHeading from "../ArticleHeading";
+import ArticleHeading from "./ArticleHeading";
 import OverviewPanel from "./OverviewPanel";
 
 const Overview = () => {

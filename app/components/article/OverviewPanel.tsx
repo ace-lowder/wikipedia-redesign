@@ -5,7 +5,7 @@ import overview3 from "@/public/images/overview-3.png";
 import overview4 from "@/public/images/overview-4.png";
 import overview5 from "@/public/images/overview-5.png";
 import overview6 from "@/public/images/overview-6.png";
-import PanelTitle from "../PanelTitle";
+import PanelTitle from "./PanelTitle";
 
 const OverviewPanel = () => {
   return (

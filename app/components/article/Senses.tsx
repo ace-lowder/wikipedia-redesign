@@ -1,5 +1,5 @@
-import ArticleHeading from "../ArticleHeading";
-import ArticleLink from "../ArticleLink";
+import ArticleHeading from "./ArticleHeading";
+import ArticleLink from "./ArticleLink";
 import Hearing from "./Hearing";
 import Vision from "./Vision";
 

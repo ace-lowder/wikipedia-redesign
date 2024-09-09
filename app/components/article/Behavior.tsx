@@ -1,6 +1,6 @@
-import ArticleHeading from "../ArticleHeading";
-import ArticleLink from "../ArticleLink";
-import ArticleSubheading from "../ArticleSubheading";
+import ArticleHeading from "./ArticleHeading";
+import ArticleLink from "./ArticleLink";
+import ArticleSubheading from "./ArticleSubheading";
 import BehaviorPanel from "./BehaviorPanel";
 
 const Behavior = () => {

@@ -1,4 +1,4 @@
-import ArticleSubheading from "../ArticleSubheading";
+import ArticleSubheading from "./ArticleSubheading";
 import VisionPanel from "./VisionPanel";
 
 const Vision = () => {

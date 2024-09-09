@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import CollapseHeader from "../CollapseHeader";
+import CollapseHeader from "./CollapseHeader";
 
 const Contents = () => {
   const [isOpen, setIsOpen] = useState(true);
