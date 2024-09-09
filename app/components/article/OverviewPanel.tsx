@@ -10,17 +10,17 @@ import PanelTitle from "../PanelTitle";
 const OverviewPanel = () => {
   return (
     <div className="flex flex-col border bg-white outline outline-[14px] outline-white max-w-[260px] float-right mb-2 ml-4 p-1.5 gap-2">
-      <h3 className="mx-auto mb-2">Cat</h3>
+      <h3 className="mx-auto">Cat</h3>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <Image
             src={overview1}
-            alt="Image A"
+            alt="Cat lying down"
             className="grow w-[55%] object-cover hover:cursor-pointer"
           />
           <Image
             src={overview2}
-            alt="Image B"
+            alt="Sitting cat looking over shoulder"
             className="grow w-[20%] object-cover hover:cursor-pointer"
           />
         </div>
@@ -28,12 +28,12 @@ const OverviewPanel = () => {
         <div className="flex gap-2">
           <Image
             src={overview3}
-            alt="Image C"
+            alt="Sitting cat facing forward"
             className="grow w-[40%] object-cover hover:cursor-pointer"
           />
           <Image
             src={overview4}
-            alt="Image D"
+            alt="Regal cat"
             className="grow w-[45%] object-cover hover:cursor-pointer"
           />
         </div>
@@ -41,12 +41,12 @@ const OverviewPanel = () => {
         <div className="flex gap-2">
           <Image
             src={overview5}
-            alt="Image E"
+            alt="Cautious kitty"
             className="grow w-[40%] object-cover hover:cursor-pointer"
           />
           <Image
             src={overview6}
-            alt="Image F"
+            alt="Cat photoshoot"
             className="grow w-[20%] object-cover hover:cursor-pointer"
           />
         </div>

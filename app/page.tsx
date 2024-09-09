@@ -5,6 +5,7 @@ import Title from "./components/article/Title";
 import Tools from "./components/sidebar/Tools";
 import Overview from "./components/article/Overview";
 import Senses from "./components/article/Senses";
+import Behavior from "./components/article/Behavior";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
             <div className="flex flex-col gap-6 lg:gap-12 select-text">
               <Overview />
               <Senses />
+              <Behavior />
             </div>
           </main>
           <div
