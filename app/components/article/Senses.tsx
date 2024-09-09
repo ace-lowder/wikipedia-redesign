@@ -10,8 +10,8 @@ const Senses = () => {
         <ArticleHeading>Senses</ArticleHeading>
         <ArticleLink>Cat Senses</ArticleLink>
       </div>
-      <Hearing />
       <Vision />
+      <Hearing />
     </div>
   );
 };
