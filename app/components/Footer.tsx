@@ -4,7 +4,7 @@ import wikimedia from "@/public/images/wikimedia.png";
 
 const Footer = () => {
   return (
-    <footer className="mt-16 border border-t py-8 px-4">
+    <footer className="mt-16 border border-t pt-8 pb-12 px-4">
       <div className="flex flex-wrap max-w-[1400px] mx-auto gap-8 md:gap-12 lg:gap-24">
         <p className="grow w-full md:w-[20%]">
           Text is available under the{" "}
