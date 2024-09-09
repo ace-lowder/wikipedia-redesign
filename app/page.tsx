@@ -6,6 +6,7 @@ import Tools from "./components/sidebar/Tools";
 import Overview from "./components/article/Overview";
 import Senses from "./components/article/Senses";
 import Behavior from "./components/article/Behavior";
+import SeeAlso from "./components/article/SeeAlso";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
               <Overview />
               <Senses />
               <Behavior />
+              <SeeAlso />
             </div>
           </main>
           <div

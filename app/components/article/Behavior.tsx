@@ -59,8 +59,8 @@ const Behavior = () => {
           areas, territory holders usually chase away stranger cats, at first by
           staring, hissing, and <a>growling</a>, and, if that does not work, by
           short and violent, noisy attacks. Though cats do not have a social
-          survival strategy or <a>herd behavior</a>, they always hunt alone.[
-          <sup>100]</sup>
+          survival strategy or <a>herd behavior</a>, they always hunt alone.
+          <sup>[100]</sup>
         </p>
       </div>
     </div>
