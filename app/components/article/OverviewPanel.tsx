@@ -9,9 +9,8 @@ import PanelTitle from "../PanelTitle";
 
 const OverviewPanel = () => {
   return (
-    <div className="bg-white outline outline-[14px] outline-white w-full md:w-[260px] md:float-right mb-4 md:mb-2 md:ml-4 lg:mb-2 p-1.5 border flex flex-col">
+    <div className="flex flex-col border bg-white outline outline-[14px] outline-white max-w-[260px] float-right mb-2 ml-4 p-1.5 gap-2">
       <h3 className="mx-auto mb-2">Cat</h3>
-
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <Image
@@ -53,13 +52,10 @@ const OverviewPanel = () => {
         </div>
       </div>
       <span className="text-sm mx-auto">Various types of cat</span>
-
       <PanelTitle>Temporal Range</PanelTitle>
       <p>9,500 years ago - present</p>
-
       <PanelTitle>Conservation Status</PanelTitle>
       <p>Domesticated</p>
-
       <PanelTitle>Scientific Classification</PanelTitle>
       <div className="flex justify-between">
         <p>Domain:</p>

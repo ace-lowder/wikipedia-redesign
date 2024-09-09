@@ -3,7 +3,7 @@ import OverviewPanel from "./OverviewPanel";
 
 const Overview = () => {
   return (
-    <div className="w-full flex flex-col gap-4 md:block">
+    <div className="w-full">
       <OverviewPanel />
       <div className="space-y-4">
         <p>

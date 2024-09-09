@@ -6,7 +6,7 @@ import Vision from "./Vision";
 const Senses = () => {
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 -mb-4">
         <ArticleHeading>Senses</ArticleHeading>
         <ArticleLink>Cat Senses</ArticleLink>
       </div>
