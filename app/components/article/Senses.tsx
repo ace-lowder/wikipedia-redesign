@@ -1,4 +1,5 @@
 import ArticleHeading from "../ArticleHeading";
+import ArticleLink from "../ArticleLink";
 import Hearing from "./Hearing";
 import Vision from "./Vision";
 
@@ -7,7 +8,7 @@ const Senses = () => {
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-1">
         <ArticleHeading>Senses</ArticleHeading>
-        <p>Main Article: Cat Senses</p>
+        <ArticleLink>Cat Senses</ArticleLink>
       </div>
       <Hearing />
       <Vision />

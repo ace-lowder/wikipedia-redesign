@@ -5,11 +5,13 @@ import overview3 from "@/public/images/overview-3.png";
 import overview4 from "@/public/images/overview-4.png";
 import overview5 from "@/public/images/overview-5.png";
 import overview6 from "@/public/images/overview-6.png";
+import PanelTitle from "../PanelTitle";
 
 const OverviewPanel = () => {
   return (
     <div className="bg-white outline outline-[14px] outline-white w-full md:w-[260px] md:float-right mb-4 md:mb-2 md:ml-4 lg:mb-2 p-1.5 border flex flex-col">
       <h3 className="mx-auto mb-2">Cat</h3>
+
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <Image
@@ -50,19 +52,15 @@ const OverviewPanel = () => {
           />
         </div>
       </div>
-
       <span className="text-sm mx-auto">Various types of cat</span>
-      <div className="bg-slate-50 text-blue-500 py-0.5 rounded-md text-center mt-3 mb-1">
-        Temporal Range
-      </div>
+
+      <PanelTitle>Temporal Range</PanelTitle>
       <p>9,500 years ago - present</p>
-      <div className="bg-slate-50 text-blue-500 py-0.5 rounded-md text-center mt-3 mb-1">
-        Conservation Status
-      </div>
+
+      <PanelTitle>Conservation Status</PanelTitle>
       <p>Domesticated</p>
-      <div className="bg-slate-50 text-blue-500 py-0.5 rounded-md text-center mt-3 mb-1">
-        Scientific Classification
-      </div>
+
+      <PanelTitle>Scientific Classification</PanelTitle>
       <div className="flex justify-between">
         <p>Domain:</p>
         <a>Eukaryota</a>
