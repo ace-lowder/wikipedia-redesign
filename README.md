@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">
+  Wikipedia Redesign
+</h1>
 
-## Getting Started
+<a href="https://wiki-redesign.netlify.app/"><img src="/readme/header.png" width="1280" alt="Project Banner"></a>
 
-First, run the development server:
+<div align="center">
+  <a href="https://react.dev/"><img src="/readme/icons/react.png" width="48" height="48" alt="React"></a>&nbsp;
+  <a href="https://www.typescriptlang.org/"><img src="/readme/icons/typescript.png" width="48" height="48" alt="Typescript"></a>&nbsp;
+  <a href="https://nextjs.org/"><img src="/readme/icons/next.png" width="48" height="48" alt="Next"></a>&nbsp;
+  <a href="https://tailwindcss.com/"><img src="/readme/icons/tailwind.png" width="48" height="48" alt="Tailwind"></a>&nbsp;
+  <a href="https://www.figma.com/"><img src="/readme/icons/figma.png" width="48" height="48" alt="Figma"></a>&nbsp;
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>I programmed a website (<a href="https://wiki-redesign.netlify.app/">wiki-redesign.netlify.app</a>) that mimics Wikipedia's layout and design. This project aims to improve upon the original Wikipedia layout, and acts a solid foundation for future development. The redesign was inspired by one of my favorite UI/UX youtubers, Juxtopposed.</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p>I created this project to demonstrate my ability to make clean, responsive layouts. I chose wikipedia because it is content-heavy, with an emphasis on text over images. This unique content allowed me to showcase my layout styling skills along with dynamic text wrapping, use of icons, and responsive images. The website is built with a modern web tech stack; utilizing React for building the user interface, TypeScript to help catch errors, Next.js for rapid server-side rendering, and Tailwind for styling. I wanted to demonstrate my ability to take a design and convert it into a working, responsive website.</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br>
+<p align="center">Click the buttons below to view the original website and redesign.</p>
+<div align="center">
+  <a href="https://en.wikipedia.org/wiki/Cat">
+    <img src="/readme/original.png" width="360" alt="Old Wikipedia">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://wiki-redesign.netlify.app/">
+    <img src="/readme/redesign.png" width="360" alt="New Wikipedia">
+  </a>
+</div>
 
-## Learn More
+<br><br><br><a href="https://wiki-redesign.netlify.app/"><img src="/readme/coding.png" width="1280" alt="Translating Figma Design to Code"></a>
 
-To learn more about Next.js, take a look at the following resources:
+## How it was made
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p>This project began as a Figma design that I turned into a functioning website. After studying the layout, typography, and spacing, I began coding each section into a compact component using React and Next.js. This systematic approach allowed me to develop the website in chunks, ensuring common components like icon buttons and links were consistent and reusable.</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<p>If you are interested in learning more about the original design, you can click the video below to watch <a href="https://www.youtube.com/watch?v=Bzj7u4Q5GG0">Juxtopposed</a> explain how they created the Figma mockups.</p>
 
-## Deploy on Vercel
+<br>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=Bzj7u4Q5GG0">
+    <img src="/readme/thumbnail.png" width="360" alt="Redesign Video">
+  </a>
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br><br><br><a href="https://wiki-redesign.netlify.app/"><img src="/readme/footer.png" width="1280" alt="Footer Image"></a>
