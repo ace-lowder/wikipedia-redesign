@@ -72,3 +72,13 @@ sup {
   @apply min-w-7;
   @apply hover:bg-gray-100;
 }
+
+.tool-button {
+  @apply flex;
+  @apply items-center;
+  @apply gap-2;
+  @apply p-2;
+  @apply text-gray-600;
+  @apply hover:bg-gray-50;
+  @apply rounded-lg;
+}

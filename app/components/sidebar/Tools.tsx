@@ -36,7 +36,7 @@ const Tools = () => {
   );
 
   return (
-    <div className="w-full flex flex-col gap-4">
+    <div className="w-full space-y-4">
       <CollapseHeader isOpen={isOpen} onClick={toggle}>
         Tools
       </CollapseHeader>
@@ -44,10 +44,7 @@ const Tools = () => {
       {isOpen && (
         <div className="flex flex-col gap-2">
           {toolButtons.map(({ name, icon, pro }) => (
-            <button
-              key={name}
-              className="flex items-center gap-2 p-2 text-gray-600 hover:bg-gray-50 rounded-lg"
-            >
+            <button key={name} className="tool-button">
               {icon}
               {name}
               {pro && proTag}
