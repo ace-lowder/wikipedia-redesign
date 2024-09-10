@@ -20,7 +20,7 @@ const Navbar = () => {
             alt="logo"
           />
         </div>
-        <div className="absolute top-20 left-[20%] w-1/2 flex justify-between text-gray-400 items-center md:static md:grow mx-8 max-w-[800px] bg-gray-100 px-4 rounded-lg h-9 cursor-pointer hover:bg-gray-200">
+        <div className="absolute top-20 left-[20%] w-1/2 flex justify-between text-gray-500 items-center md:static md:grow mx-8 max-w-[800px] bg-gray-50 px-4 rounded-lg h-9 cursor-pointer hover:bg-gray-100">
           Search Wikipedia <IoSearchSharp />
         </div>
         <div id="options" className="flex gap-2 items-center">
